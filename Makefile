@@ -1,14 +1,14 @@
-kjv: kjv.sh kjv.awk kjv.tsv
-	cat kjv.sh > $@
+sgd: sgd.sh sgd.awk sgd.tsv
+	cat sgd.sh > $@
 
 	echo 'exit 0' >> $@
 
 	echo '#EOF' >> $@
-	tar czf - kjv.awk kjv.tsv >> $@
+	tar czf - sgd.awk sgd.tsv >> $@
 
 	chmod +x $@
 
-test: kjv.sh
-	shellcheck -s sh kjv.sh
+test: sgd.sh
+	shellcheck -s sh sgd.sh
 
 .PHONY: test

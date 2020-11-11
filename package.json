@@ -1,0 +1,22 @@
+{
+  "name": "sgd",
+  "version": "1.0.0",
+  "description": "Read the Word of God from your terminal",
+  "main": "convert.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taigah/kjv.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taigah/kjv/issues"
+  },
+  "homepage": "https://github.com/taigah/kjv#readme",
+  "dependencies": {
+    "jsdom": "^16.4.0"
+  }
+}
